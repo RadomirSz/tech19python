@@ -25,7 +25,7 @@ j = float(input())
 print(0.4*(i+j))
 
 #zadanie6
-l = float(input(podaj cenę))
+l = float(input("podaj cenę"))
 print(l/1.23)
 
 #zadanie7
