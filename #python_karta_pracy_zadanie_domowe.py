@@ -18,8 +18,12 @@ else:
 k = int(input('podaj pierwszą liczbę całkowitą:'))
 l = int(input('podaj drugą liczbę całkowitą:'))
 m = int(input('podaj trzecią liczbę całkowitą:'))
-if k == l or l == m or k == m:
-    print('tak')
+if k == l:
+    print('1 liczba jest równa drugiej')
+elif l == m:
+    print('druga liczba jest równa trzeciej')
+elif k == m:
+    print('pierwsza liczba jest równa trzeciej')
 else:
     print('nie')
 
