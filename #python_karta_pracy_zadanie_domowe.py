@@ -9,7 +9,7 @@ if ((a+b)%2 == 0):
 #zad2
 from math import sqrt
 a, b = int(input()), int(input())
-if (a+b/2) > sqrt(a*b):
+if ((a+b)/2) > sqrt(a*b):
     print('średnia arytmetyczna jest większa')
 else:
     print('srednia geometryczna jest większa')
