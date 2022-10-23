@@ -19,3 +19,10 @@ for i in range(0,a):
   x = int(input("podaj liczbę "))
   suma+=x
 print(suma)
+#zad6 program wyznaczający sumę k początkowych liczb parzystych 
+k = int(input("Ile liczb parzystych dodać? "))
+suma = 0
+for i in range(1,k*2+1):
+  if i%2 == 0:
+    suma+=i
+print(suma)
