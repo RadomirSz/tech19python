@@ -32,3 +32,15 @@ suma = 0
 for i in range(11,m*2+1+10,2):
     suma+=i
 print(suma)
+#zad8
+
+
+#zad9
+suma = 0
+lista = 21
+n = int(input("podaj ilośc razy: "))
+for i in range(21,(n*100)+21,100):
+  print(lista)
+  suma+=i
+  lista+=100
+print(suma)
