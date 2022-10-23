@@ -33,7 +33,14 @@ for i in range(11,m*2+1+10,2):
     suma+=i
 print(suma)
 #zad8
-
+w = int(input("podaj kwotę wejściową: "))
+l= int(input("Ile lat trwała inwestycja? "))
+wk = 0
+sk = w
+for i in range(0,l*12):
+  wk =sk*0.06*(1/12)
+  sk+=wk
+print(round(sk,2))
 
 #zad9
 suma = 0
