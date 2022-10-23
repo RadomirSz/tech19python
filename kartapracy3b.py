@@ -13,6 +13,9 @@ for i in range(100,1000):
     if (i%5 == 0 or i%6 == 0 or i%11 == 0):
         print(i, end=" ")
 #zad5 - Napisz program, który podaje sumę wpisanych przez usera liczb. User najpierw podaje ile liczb poda, a potem w pętli te liczby są czytane.
+suma = 0
 a = int(input("ile liczb chcesz wpisać? "))
 for i in range(0,a):
-    x = int(input("podaj liczbę"))
+  x = int(input("podaj liczbę "))
+  suma+=x
+print(suma)
