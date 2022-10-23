@@ -26,3 +26,9 @@ for i in range(1,k*2+1):
   if i%2 == 0:
     suma+=i
 print(suma)
+#zad7 - napisz program wyznaczający sumę m dwucyfrowych liczb nieparzystych
+m = int(input("Ile liczb dwucyfrowych nieparzystych dodać? "))
+suma = 0
+for i in range(11,m*2+1+10,2):
+    suma+=i
+print(suma)
