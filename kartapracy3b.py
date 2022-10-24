@@ -51,3 +51,9 @@ for i in range(21,(n*100)+21,100):
   suma+=i
   lista+=100
 print(suma)
+
+#zad10
+from math import sqrt
+for i in range(1,1001):
+  if i%10 ==sqrt(i) or i%100 == sqrt(i) or i%1000 == sqrt(i):
+    print(i, end=" ")
