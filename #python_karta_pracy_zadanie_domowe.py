@@ -64,3 +64,13 @@ if a < b + c and b < a + c and c < a + b:
     elif a**2 + b**2 > c**2 or b**2 + c**2 > a**2 or c**2 + a**2 > b**2 : print("Będzie to trójkąt ostrokątny")
 else:
     print("Trójkąt nie powstanie")
+a = int(input())
+b = int(input())
+if a+b%2 == 0
+        
+
+
+
+
+
+
