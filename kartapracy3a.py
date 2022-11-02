@@ -19,7 +19,7 @@
 #   else:
 #     print("-"*i, end=" ")
 #PRE - tabliczka mnożenia
-# \t to rtabulator wyruwnuje
+# \t to tabulator wyrównuje
 # for i in range(1,11):
 #   for j in range(1,11):
 #     print(i*j,end="\t")
@@ -41,8 +41,6 @@
 #     print("*", end=" ")
 #   print()
 
-
-
 #*
 #**
 #***
@@ -52,17 +50,116 @@
 #***
 #**
 #*
+# n = int(input())
+# for i in range(n):  #ilość wierszy
+#   for j in range(i + 1):  #ilość kolumn
+#     print("*", end=" ")
+#   print()
 
+# print()
+# print()
+
+# for i in range(n):  #ilość wierszy
+#   for j in range(n - i):  #ilość kolumn
+#     print("*", end=" ")
+#   print()
+
+#    *
+#   **
+#  ***
+# ****
+#
+# ****
+#  ***
+#   **
+#    *
+
+# n = int(input())
+
+# for i in range(n):
+#     for j in range(i + 1):
+#         print("*", end="")
+#     print()
+
+# print()
+# print()
+
+# for i in range(n):
+#     for j in range(n - i):
+#         print("*", end="")
+#     print()
+
+# print()
+# print()
+
+# for i in range(n):
+#     for j in range(n - i - 1):
+#         print(" ", end="")
+#     for k in range(n - i - 1, n):
+#         print("*", end="")
+#     print()
+
+# print()
+# print()
+
+# for i in range(n):
+#     for j in range(i):
+#         print(" ", end="")
+#     for k in range(i, n):
+#         print("*", end="")
+#     print()
+# n=int(input())
+# for i in range(n):
+#   for j in range(n):
+#     if i >=j:
+#       print("*", end="")
+#     else:
+#       print(" ", end="")
+#   print()
+
+# print()
+# print()
+# #*****
+# #****
+# #***
+# #**
+# #*
+# for i in range(n):
+#   for j in range(n):
+#     if j >=i:
+#       print("*", end="")
+#     else:
+#       print(" ", end="")
+#   print()
+
+# print()
+# print() 
 n = int(input())
-for i in range(n): #ilość wierszy
-  for j in range(i+1): #ilość kolumn
-    print("*", end=" ")
+# for i in range(n):
+#   for j in range(n):
+#     if i==n-j-1 or i>j:
+#       print("*", end="")
+#     else:
+#       print(" ", end="")
+#   print()
+
+print()
+
+
+for i in range(n):
+  for j in range(n):
+    if i+j >= n - 1:
+      print("*", end="")
+    else:
+      print(" ", end="")
   print()
   
 print()
-print()
 
-for i in range(n): #ilość wierszy
-  for j in range(n-i): #ilość kolumn
-    print("*", end=" ")
+for i in range(n):
+  for j in range(n):
+    if i <= j:
+      print("*", end="")
+    else:
+      print(" ", end="")
   print()
