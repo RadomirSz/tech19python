@@ -242,11 +242,17 @@
 #         print(faj)
 #n = int(input())
 
-# **   **
-# *** ***
-#  ***** 
-# *** ***
-# **   **
+
+# * *       * * 
+# * * *   * * * 
+#   * * * * *   
+#     * * *     
+#   * * * * *   
+# * * *   * * * 
+# * *       * *
+
+
+
 # for i in range(7):
 #   for j in range(7):
 #     if j+i == 6:
@@ -265,16 +271,19 @@
 #       print(" ", end=" ")
 #   print()
 
-#n = int(input())
+# n = int(input())
 # for i in range(n):
 #   for j in range(n):
 #     if i+j == n-1:
-#       print("?", end="\t")
+#       print("?", end=" ")
 #     elif i-j == 0:
-#       print("*", end="\t")
+#       print("*", end=" ")
 #     else:
-#       print("", end="\t")
+#       print("", end=" ")
 #   print()
+
+
+  
 # n = int(input())
 # for i in range(n):
 #   for j in range(n):
@@ -302,3 +311,65 @@
 #   print("liczba która została podana na 9 miejscu w ciągu collatza to 1")
 # else:
 #   print("nie")
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# print("a)")
+# print((a+b+c+d)/4)
+# print('b)')
+# if a == d or a == d+1 or a == d+2 or a == d-1 or a == d-2:
+#   print('tak')
+# else:
+#   print('nie')
+# print('c)')
+# if a<b and b<c and c<d:
+#   print('3')
+# elif a<b and b<c and not c<d:
+#   print('2')
+# elif a<b and not b<c and not c<d:
+#   print('1')
+# elif a<b and b<c and c<d:
+#   print('2')
+# elif not a<b and b<c and c<d:
+#   print('2')
+# elif not a<b and b<c and not c<d:
+#   print('1')
+# elif a<b and not b<c and c<d:
+#   print('2')
+# elif not a<b and not b<c and c<d:
+#   print('1')
+# else:
+#   print('0')
+
+
+
+# #           *           #  
+#   #         *         #    
+#     #       *       #      
+#       #     *     #        
+#         #   *   #          
+#           # * #            
+# * * * * * * * * * * * * *  
+#           # * #            
+#         #   *   #          
+#       #     *     #        
+#     #       *       #      
+#   #         *         #    
+# #           *           #  
+# x = int(input())
+# for i in range(x):
+#     for j in range(x):
+#         if i == int(x/2) or j == int(x/2): print("*",end=" ")
+#         elif j == i or i + j == x - 1: print("#",end=" ")
+#         else: print(" ",end=" ")
+#     print(" ")
+
+#fajowe liczby
+# for faj in range(1000,10000):
+#     jed = int(faj % 10)
+#     dz = int((faj % 100)/10)
+#     set = int((faj % 1000)/100)
+#     if jed  == dz * 2 and dz  == set * 2 and jed != 0:
+#         print(faj)
