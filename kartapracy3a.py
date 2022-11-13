@@ -177,13 +177,128 @@
 #   print()
 
 #zad6
-n = int(input())
-for i in range(n):
-  for j in range(n):
-    if i+j == n-1:
-      print("?", end=" ")
-    elif i-j == 0:
-      print("*", end=" ")
-    else:
-      print("", end=" ")
-  print()
+# n = int(input())
+# for i in range(n):
+#   for j in range(n):
+#     if i+j == n-1:
+#       print("?", end="\t")
+#     elif i-j == 0:
+#       print("*", end="\t")
+#     else:
+#       print("", end="\t")
+#   print()
+
+
+# p = int(input())
+# k = int(input())
+# s = int(input())
+# print('a)')
+# if k-p == s or k-p == 2*s or k-p == 3*s or k-p == 4*s or k-p == 5*s:
+#   print('tak')
+# else:
+#   print('nie')
+
+# print('b)')
+# if k-p <=s:
+#   print('1')
+# elif(k-p<=s*2):
+#   print('2')
+# elif(k-p<=s*3):
+#   print('3')
+# elif(k-p<=s*4):
+#   print('4')
+# elif(k-p<=s*5):
+#   print('5')
+# else:
+#   print('nie przeskoczy')
+
+# print('c)')
+# if (k-p == 5*s):
+#   print('tak')
+# else:
+#   print('nie')
+
+# print((k-p)/5)
+
+# for i in range(1000,10000):
+#   if (i%1000 == 2*(i%100) and i%100 == 2*(i%10)):
+#     print(i)
+
+#  for faj in range(1000,10000):
+#    a = faj % 1000
+#    b = faj % 100
+#    c = faj % 10
+#    if a * 2 == b and b * 2 == c:
+#      print(faj)
+
+# # xabc
+# # 2*b=c
+# # 2*a=b
+# for faj in range(1000,10000):
+#     jed = int(faj % 10)
+#     dz = int((faj % 100)/10)
+#     set = int((faj % 1000)/100)
+#     if jed  == dz * 2 and dz  == set * 2 and jed * 2 < 10 and dz * 2 < 10:
+#         print(faj)
+#n = int(input())
+
+# **   **
+# *** ***
+#  ***** 
+# *** ***
+# **   **
+# for i in range(7):
+#   for j in range(7):
+#     if j+i == 6:
+#       print('*', end=" ")
+#     elif(i == j):
+#       print("*", end=" ")
+#     elif(i == j+1):
+#       print("*", end=" ")
+#     elif(i+1 == j):
+#       print("*", end=" ")
+#     elif(i+j == 7):
+#       print("*", end=" ")
+#     elif(j+i==5):
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()
+
+#n = int(input())
+# for i in range(n):
+#   for j in range(n):
+#     if i+j == n-1:
+#       print("?", end="\t")
+#     elif i-j == 0:
+#       print("*", end="\t")
+#     else:
+#       print("", end="\t")
+#   print()
+# n = int(input())
+# for i in range(n):
+#   for j in range(n):
+#     if j+i == n-1:
+#       print('#', end=" ")
+#     elif(i==j):
+#       print('#', end=" ")
+#     elif(i==n/2):
+#       print('*' ,end=" ")
+#     elif(j==n/2):
+#       print('*')
+#     else:
+#       print(' ', end=" ")
+#   print()
+
+# n = int(input())
+
+# for i in range(9):
+#   if n%2 == 0:
+#     n = n/2
+#   else:
+#     n=n*3+1
+#   print(n)
+# if n == 1:
+#   print("liczba która została podana na 9 miejscu w ciągu collatza to 1")
+# else:
+#   print("nie")
