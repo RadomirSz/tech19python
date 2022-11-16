@@ -133,7 +133,7 @@
 #   print()
 
 # print()
-# print() 
+# print()
 #n = int(input())
 # for i in range(n):
 #   for j in range(n):
@@ -145,7 +145,6 @@
 
 # print()
 
-
 # for i in range(n):
 #   for j in range(n):
 #     if i+j >= n - 1:
@@ -153,7 +152,7 @@
 #     else:
 #       print(" ", end="")
 #   print()
-  
+
 # print()
 
 # for i in range(n):
@@ -187,7 +186,6 @@
 #     else:
 #       print("", end="\t")
 #   print()
-
 
 # p = int(input())
 # k = int(input())
@@ -242,20 +240,18 @@
 #         print(faj)
 #n = int(input())
 
-
-# * *       * * 
-# * * *   * * * 
-#   * * * * *   
-#     * * *     
-#   * * * * *   
-# * * *   * * * 
+# * *       * *
+# * * *   * * *
+#   * * * * *
+#     * * *
+#   * * * * *
+# * * *   * * *
 # * *       * *
 
-
-
-# for i in range(7):
-#   for j in range(7):
-#     if j+i == 6:
+# x = int(input())
+# for i in range(x):
+#   for j in range(x):
+#     if j+i == x-1:
 #       print('*', end=" ")
 #     elif(i == j):
 #       print("*", end=" ")
@@ -263,9 +259,9 @@
 #       print("*", end=" ")
 #     elif(i+1 == j):
 #       print("*", end=" ")
-#     elif(i+j == 7):
+#     elif(i+j == x):
 #       print("*", end=" ")
-#     elif(j+i==5):
+#     elif(j+i==x-2):
 #       print("*", end=" ")
 #     else:
 #       print(" ", end=" ")
@@ -282,8 +278,6 @@
 #       print("", end=" ")
 #   print()
 
-
-  
 # n = int(input())
 # for i in range(n):
 #   for j in range(n):
@@ -343,21 +337,19 @@
 # else:
 #   print('0')
 
-
-
-# #           *           #  
-#   #         *         #    
-#     #       *       #      
-#       #     *     #        
-#         #   *   #          
-#           # * #            
-# * * * * * * * * * * * * *  
-#           # * #            
-#         #   *   #          
-#       #     *     #        
-#     #       *       #      
-#   #         *         #    
-# #           *           #  
+# #           *           #
+#   #         *         #
+#     #       *       #
+#       #     *     #
+#         #   *   #
+#           # * #
+# * * * * * * * * * * * * *
+#           # * #
+#         #   *   #
+#       #     *     #
+#     #       *       #
+#   #         *         #
+# #           *           #
 # x = int(input())
 # for i in range(x):
 #     for j in range(x):
@@ -373,3 +365,46 @@
 #     set = int((faj % 1000)/100)
 #     if jed  == dz * 2 and dz  == set * 2 and jed != 0:
 #         print(faj)
+
+# x = int(input())
+# for i in range(x):
+#   for j in range(x):
+#     if  j == int(x/2):
+#       print('*', end=" ")
+#     elif(i == int(x/2)):
+#       print('*', end=" ")
+#     elif i+j == x-1:
+#       print('#', end=" ")
+#     elif(i == j):
+#       print("#", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print
+# print('podaj kod trzycyfrowy')
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a+2 > b or a+2 < b or b+2 > a or b+2 < a and b+2 > c or b+2 < c:
+#     print('dobry kod')
+# else:
+#     print('zły kod')
+
+# suma = 0
+# l = 1
+# n = int(input('podaj ile ułamków dodać: '))
+# for i in range(n):
+#   l = l+1
+#   suma =suma + l/((i+1)**2)
+# #  print(l , (1+i)**2)
+# print("suma:")
+# print(round(suma, 3))
+
+print('zad 1')
+print('podaj kod trzycyfrowy')
+a = int(input())
+b = int(input())
+c = int(input())
+if a+2 == b or a+1 == b or a == b or a-1 == b or a-2 == b and b+2 == c or b+1 == c or b == c or b-1 == c or b-2 == c:
+    print('zły kod')
+else:
+    print('dobry kod')
