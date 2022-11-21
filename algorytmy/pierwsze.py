@@ -20,8 +20,14 @@ else:
   print('nie pierwsza')
 
 #2. generator liczb pierwszych - liczby w przedziale [p,q]
+p , q = map(int, input())
 
-
-
+for i in range(p,q+1):
+  flaga=True
+  for j in range(2,int(i**0.5)+1):
+    if i%j==0:
+      flaga = False
+    if flaga:
+      print(i, end=" ")
 
 #3. generator liczb pierwszych - początkowe k liczb pierwszych
