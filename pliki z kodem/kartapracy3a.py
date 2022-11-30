@@ -399,12 +399,12 @@
 # print("suma:")
 # print(round(suma, 3))
 
-print('zad 1')
-print('podaj kod trzycyfrowy')
-a = int(input())
-b = int(input())
-c = int(input())
-if a+2 == b or a+1 == b or a == b or a-1 == b or a-2 == b and b+2 == c or b+1 == c or b == c or b-1 == c or b-2 == c:
-    print('zły kod')
-else:
-    print('dobry kod')
+# print('zad 1')
+# print('podaj kod trzycyfrowy')
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a+2 == b or a+1 == b or a == b or a-1 == b or a-2 == b and b+2 == c or b+1 == c or b == c or b-1 == c or b-2 == c:
+#     print('zły kod')
+# else:
+#     print('dobry kod')

@@ -20,27 +20,27 @@
 #   print('nie pierwsza')
 
 #2. generator liczb pierwszych - liczby w przedziale [p,q]
-# p , q = map(int, input().split())
+p , q = map(int, input().split())
 
-# for i in range(p, q+1):
-#   flaga=True
-#   for j in range(2,int(i**0.5)+1):
-#     if i % j==0:
-#       flaga = False
-#   if flaga:
-#     print(i, end=" ")
+for i in range(p, q+1):
+  flaga=True
+  for j in range(2,int(i**0.5)+1):
+    if i % j==0:
+      flaga = False
+  if flaga:
+    print(i, end=" ")
 
 #3. generator liczb pierwszych - początkowe k liczb pierwszych
-# n = int(input('ile? '))
-# x = 2
-# while 1:
-#   flaga = True
-#   for i in range(2, int(x**0.5)+1):
-#     if x % i == 0:
-#       flaga=False
-#   if flaga:
-#     print(x, end=" ")
-#     n = n-1
-#     if n == 0:
-#        break
-#   x = x + 1
+n = int(input('ile? '))
+x = 2
+while 1:
+  flaga = True
+  for i in range(2, int(x**0.5)+1):
+    if x % i == 0:
+      flaga=False
+  if flaga:
+    print(x, end=" ")
+    n = n-1
+    if n == 0:
+       break
+  x = x + 1
